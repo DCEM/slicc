@@ -1,0 +1,9 @@
+// _sass/color_schemes/slicc.scss
+
+// base it on the dark scheme.
+@import "./color_schemes/dark";
+
+// override the font family for the whole site:
+$body-font-family: "SLICC", system-ui, sans-serif !default;
+
+
