@@ -60,6 +60,29 @@ Platform-agnostic reference diagrams (e.g. rail/slot geometry) live in:
     - **Body Width / Height:** canonical dimensions set by the host Family (`body_width_mm`, `body_height_mm`).
     - **Span:** physical length occupied in the host’s Length (front–back) direction (`slot_count × slot_pitch_mm − span_clearance_mm`).
 
+## Diagrams
+
+### Rail
+
+![SLICC Rail](./diagrams/rail.svg)
+
+### Slot Overview
+
+![Slot Overview](./diagrams/slot-overview.svg)
+
+```yaml
+span_clearance: 0.25
+slot_clearance: 0.25
+```
+
+### Pull Tab
+
+![Pull Tab](./diagrams/pull-tab.svg)
+
+### Color-Code Slot
+
+![Color-Code Slot](./diagrams/cc-slot.svg)
+
 ## Hierarchy
 
 SLICC is organized into three tiers:

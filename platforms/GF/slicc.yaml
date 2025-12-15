@@ -1,0 +1,35 @@
+name: "Gridfinity compatible"
+platform_id: "GF"
+
+# HEIGHT AXIS (choose H or h)
+chassis_height_increment_mm: 7
+bin_height_constant_mm: 4.4
+
+top_height_mm: 4.4
+bottom_height_mm: 5.75
+
+# WIDTH AXIS (choose W or w)
+chassis_width_increment_mm: 42
+core_width_constant_mm: -0.5
+body_width_constant_mm: -5.5
+
+# LENGTH AXIS (choose L or l)
+chassis_length_increment_mm: 42
+core_length_constant_mm: -0.5
+
+# CORE GEOMETRY
+core_corner_radius_mm: 3.75 # canonical external core corner radius
+
+# SLICC LAYER
+rack_slot_constant_mm: -16 # optional, default: -16
+slot_pitch_mm: 3.4
+
+# OPTIONAL MASKS
+mask_height: "00.0" # default H: "00"   / h: "000"
+mask_width:  "0.0"  # default W: "0.0"  / w: "000"
+mask_length: "0.0"  # default L: "0.0"  / l: "000"
+
+spec_version: "0.3"
+spec_repo: "https://github.com/DCEM/slicc"
+license: "CC BY 4.0"
+license_url: "https://slicc.eu/license"

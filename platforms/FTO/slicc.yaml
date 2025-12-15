@@ -1,0 +1,35 @@
+name: "Festool Organizer compatible"
+platform_id: "FTO"
+
+# HEIGHT AXIS (choose H or h)
+bin_height_mm:
+  - 68
+
+top_height_mm: 4
+bottom_height_mm: 6
+
+# WIDTH AXIS (choose W or w)
+chassis_width_increment_mm: 50
+core_width_constant_mm: -4.5
+body_width_constant_mm: -5.5
+
+# LENGTH AXIS (choose L or l)
+chassis_length_increment_mm: 50
+core_length_constant_mm: -4.5
+
+# CORE GEOMETRY
+core_corner_radius_mm: 1 # canonical external core corner radius
+
+# SLICC LAYER
+rack_slot_constant_mm: -16 # optional, default: -16
+slot_pitch_mm: 3.5
+
+# OPTIONAL MASKS
+mask_height: "000"  # default H: "00"   / h: "000"
+mask_width:  "0.0"  # default W: "0.0"  / w: "000"
+mask_length: "0.0"  # default L: "0.0"  / l: "000"
+
+spec_version: "0.3"
+spec_repo: "https://github.com/DCEM/slicc"
+license: "CC BY 4.0"
+license_url: "https://slicc.eu/license"
