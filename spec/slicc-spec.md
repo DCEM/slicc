@@ -64,11 +64,15 @@ Platform-agnostic reference diagrams (e.g. rail/slot geometry) live in:
 
 ### Rail
 
-![SLICC Rail](./diagrams/rail.svg)
+![SLICC Rail](./diagrams/rail-light.svg#gh-light-mode-only)
+
+![SLICC Rail](./diagrams/rail-dark.svg#gh-dark-mode-only)
 
 ### Slot Overview
 
-![Slot Overview](./diagrams/slot-overview.svg)
+![Slot Overview](./diagrams/slot-overview-light.svg#gh-light-mode-only)
+
+![Slot Overview](./diagrams/slot-overview-dark.svg#gh-dark-mode-only)
 
 ```yaml
 span_clearance: 0.25
@@ -77,11 +81,15 @@ slot_clearance: 0.25
 
 ### Pull Tab
 
-![Pull Tab](./diagrams/pull-tab.svg)
+![Pull Tab](./diagrams/pull-tab-light.svg#gh-light-mode-only)
+
+![Pull Tab](./diagrams/pull-tab-dark.svg#gh-dark-mode-only)
 
 ### Color-Code Slot
 
-![Color-Code Slot](./diagrams/cc-slot.svg)
+![Color-Code Slot](./diagrams/cc-slot-light.svg#gh-light-mode-only)
+
+![Color-Code Slot](./diagrams/cc-slot-dark.svg#gh-dark-mode-only)
 
 ## Hierarchy
 
